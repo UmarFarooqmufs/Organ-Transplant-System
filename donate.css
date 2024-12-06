@@ -1,0 +1,286 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f4; /* Light grey background */
+}
+.header-section {
+    text-align: left;
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+.logo {
+    height: 50px;
+}
+.top-right-text {
+    margin-right: 20px;
+}
+.donation-section {
+    text-align: center;
+    margin: 40px 0;
+}
+.quote {
+    font-style: italic;
+    color: #333;
+}
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-container input {
+    margin-bottom: 20px;
+}
+.btn-send-otp {
+    background-color: #ddd;
+    color: #666;
+    width: 100%;
+}
+
+
+nav {
+background-color:black;
+}
+
+.navbar-brand img {
+height: 50px;
+width: auto;
+}
+
+.navbar-brand, .nav-link {
+color: #fff !important;
+}
+
+.nav-link:hover {
+background-color: #357ABD;
+border-radius: 4px;
+}
+
+.btn-outline-success {
+border-color: #4a90e2;
+color: #4a90e2;
+}
+
+.btn-outline-success:hover {
+background-color: #4a90e2;
+color: #fff;
+}
+
+.form-control {
+border-radius: 25px;
+border-color: #4a90e2;
+}
+
+.dropdown-menu {
+border-radius: 8px;
+border: 1px solid #4a90e2;
+}
+
+.dropdown-item:hover {
+background-color: #4a90e2;
+color: white;
+}
+
+/* Styling for Second Navbar */
+.navbar-second {
+background-color:white;
+color: black; /* Custom Blue Background */
+}
+
+.navbar-second .nav-link {
+color:black!important;
+/* White text for nav links */
+}
+
+.navbar-second .nav-link:hover {
+background-color:#4a90e2; /* Darker blue on hover */
+border-radius: 4px;
+}
+
+/* Custom Centering for Navbars */
+.navbar-center {
+justify-content: center;
+}
+
+
+
+
+  /* Primary Navbar Styling */
+  nav {
+    background-color: #FF4E50; /* Sunset Orange */
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important; /* White Text */
+  }
+  
+  .nav-link:hover {
+    background-color: #FF7676; /* Light Coral */
+    border-radius: 4px;
+  }
+  
+  /* Button Styling */
+  .btn-outline-success {
+    border-color: #FF9A91; /* Peach */
+    color: #FF9A91;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #FF9A91;
+    color: #fff;
+  }
+  
+  /* Form Styling */
+  .form-control {
+    border-radius: 25px;
+    border-color: #357ABD; /* Steel Blue */
+  }
+  
+  /* Dropdown Menu Styling */
+  .dropdown-menu {
+    border-radius: 8px;
+    border: 1px solid #357ABD;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #357ABD; /* Steel Blue */
+    color: white;
+  }
+  
+  
+  /* Styling for Second Navbar */
+  .navbar-second {
+    background-color: #c9302c; /* Firebrick */
+    color: white;
+  }
+  
+  .navbar-second .nav-link {
+    color: #fff !important;
+  }
+  
+  .navbar-second .nav-link:hover {
+    background-color: #a62727; /* Dark Red */
+    border-radius: 4px;
+  }
+  
+  /* Custom Centering for Navbars */
+  .navbar-center {
+    justify-content: center;
+  }
+  
+  
+  
+  /* Search Button Styling */
+  .btn-outline-success {
+    border-color:#357ABD; /* Adjusted to Light Coral */
+    color: white;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #357ABD; /* Sunset Orange for Hover */
+    color: white;
+    
+  }
+  
+  /* Sign In Button Styling */
+  .btn-outline-light {
+    border-color: #357ABD; /* Steel Blue for Sign In Button */
+    color: white;
+    margin-right: 10px;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #357ABD; /* Steel Blue for Hover */
+    color: white;
+  }
+  
+  /* Sign Up Button Styling */
+  .btn-outline-primary {
+    border-color:#357ABD; /* Sunset Orange for Sign Up Button */
+    color: white;
+    margin-right: 10px;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #357ABD; /* Sunset Orange for Hover */
+    color: white;
+  }
+  
+  
+  
+  /* Additional CSS for alignment */
+  .ms-auto {
+    margin-left: auto;
+  }
+  
+  .navbar-brand img.logo {
+    height: auto;
+    width: 120px;
+  }
+
+  /* Add some basic styling */
+  .form-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-send-otp {
+    background-color: lightgray;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: not-allowed;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.btn-send-otp:hover {
+    background-color: darkgray;  /* Change color on hover */
+    color: white;
+}
+
+/* Active state when button is enabled */
+.btn-send-otp:enabled {
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.btn-send-otp:enabled:hover {
+    background-color: #0056b3;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

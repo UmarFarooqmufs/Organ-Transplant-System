@@ -1,0 +1,395 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    height: 50px;
+}
+
+.header h5 {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    color: grey;
+}
+
+.main-card {
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-card .header, .main-card1 .header1 {
+    background: #0d6efd;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-card .sub-header {
+    display: flex;
+    justify-content: space-between;
+    background: #e7e7e7;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-section .card {
+    width: 48%;
+}
+
+.form-control, .btn {
+    border-radius: 25px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: black;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    background-color: #357ABD;
+    border-radius: 4px;
+}
+
+/* Button Styles */
+.btn-outline-success {
+    border-color: #4a90e2;
+    color: #4a90e2;
+}
+
+.btn-outline-success:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+    border-radius: 8px;
+    border: 1px solid #4a90e2;
+}
+
+.dropdown-item:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* Card Custom CSS */
+.card-title {
+    font-size: 1.5rem;
+    color: #61a1eb;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+}
+
+/* Styling for Second Navbar */
+.navbar-second {
+    background-color: white;
+    color: black;
+}
+
+.navbar-second .nav-link {
+    color: black !important;
+}
+
+.navbar-second .nav-link:hover {
+    background-color: #4a90e2;
+    border-radius: 4px;
+}
+
+/* Custom Centering for Navbars */
+.navbar-center {
+    justify-content: center;
+}
+
+/* Centering Donor Section */
+.donor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto; /* Center horizontally */
+    padding: 20px;
+    max-width: 900px; /* Limit width */
+    background: #ffffff; /* Background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for effect */
+}
+
+.button1 button {
+    padding: 10px 20px;
+    background-color: #4a90e2; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button1 button:hover {
+    background-color: #357ABD; /* Hover effect */
+}
+
+.img {
+    height: auto;
+    width: 200px;
+}
+
+.carousel-inner img {
+    height: 700px;
+    width: 1920px;
+}
+
+/* Search Form Styles */
+.form-control {
+    border-radius: 25px; /* Rounded corners */
+    border: 2px solid #357ABD; /* Steel Blue border */
+    padding: 10px 20px; /* Padding for the input */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+.form-control:focus {
+    border-color: #4a90e2; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Shadow effect on focus */
+}
+
+/* Search Button Styles */
+.btn-outline-success {
+    border: 2px solid white; /* Steel Blue border */
+    background-color: transparent; /* Transparent background */
+    color: white; /* Steel Blue text */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 25px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn-outline-success:hover {
+    background-color: #4a90e2; /* Steel Blue background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.4); /* Add shadow on hover */
+}
+
+/* Sign In Button Styles */
+.btn-outline-light {
+    border: 2px solid white; /* Firebrick border */
+    background-color: transparent; /* Transparent background */
+    color: white; /* Firebrick text */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 25px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn-outline-light:hover {
+    background-color: #007bff; /* Firebrick background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 4px 12px rgba(201, 48, 44, 0.4); /* Add shadow on hover */
+}
+
+/* Sign Up Button Styles */
+.btn-outline-primary {
+    border: 2px solid white; /* Bootstrap primary blue border */
+    background-color: transparent; /* Transparent background */
+    color: white; /* Bootstrap primary blue text */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 25px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff; /* Bootstrap primary blue background on hover */
+    color: white; /* White text on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4); /* Add shadow on hover */
+}
+
+
+
+/* Additional CSS for alignment */
+.ms-auto {
+    margin-left: auto;
+}
+
+.navbar-brand img.logo {
+    height: auto;
+    width: 120px; /* Adjust to your preferred size */
+}
+
+/* Footer Section Styling */
+.footer {
+    background-color: #357ABD; /* Steel Blue */
+    color: white;
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-column p, .footer-column ul, .footer-column li {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-logo img {
+    width: 50px;
+    display: block;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #083e5d;
+    border-top: 1px solid #06334a;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+/* Font Family */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Primary Navbar Styling */
+nav {
+    background-color: #FF4E50; /* Sunset Orange */
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White Text */
+}
+
+.nav-link:hover {
+    background-color: #FF7676; /* Light Coral */
+    border-radius: 4px;
+}
+
+/* Button Styling */
+.btn-outline-success {
+    border-color: #FF9A91; /* Peach */
+    color: #FF9A91;
+}
+
+.btn-outline-success:hover {
+    background-color: #FF9A91;
+    color: #fff;
+}
+
+/* Form Styling */
+.form-control {
+    border-radius: 25px;
+    border-color: #357ABD; /* Steel Blue */
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    border-radius: 8px;
+    border: 1px solid #357ABD;
+}
+
+.dropdown-item:hover {
+    background-color: #357ABD; /* Steel Blue */
+    color: white;
+}
+
+/* Styling for Second Navbar */
+.navbar-second {
+    background-color: #c9302c; /* Firebrick */
+    color: white;
+}
+
+.navbar-second .nav-link {
+    color: #fff !important;
+}
+
+.navbar-second .nav-link:hover {
+    background-color: #a62727; /* Dark Red */
+    border-radius: 4px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

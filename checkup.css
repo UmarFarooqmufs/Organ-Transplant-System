@@ -1,0 +1,50 @@
+.header-section {
+    text-align: center;
+    margin: -10px;
+
+   
+   
+}
+
+.header-section img {
+    width: 1930px;
+    height: 700px;
+   
+}
+.cards-section, .extra-cards-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.card h3 {
+    margin-top: 10px;
+}
+.card p {
+    color: #666;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+

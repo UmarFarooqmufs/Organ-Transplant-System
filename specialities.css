@@ -1,0 +1,170 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #FF4E50; /* Sunset Orange */
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White Text */
+}
+
+.nav-link:hover {
+    background-color: #FF7676; /* Light Coral */
+    border-radius: 4px;
+}
+
+.dropdown-menu {
+    border-radius: 8px;
+    border: 1px solid #357ABD; /* Steel Blue */
+}
+
+.dropdown-item:hover {
+    background-color: #357ABD;
+    color: white;
+}
+
+/* Button Styling */
+.btn-outline-success {
+    border-color: #357ABD; /* Peach */
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: #357ABD;
+    color: #fff;
+}
+
+.btn-outline-light {
+    border-color: #357ABD; /* Steel Blue for Sign In Button */
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: #357ABD;
+    color: white;
+}
+
+.btn-outline-primary {
+    border-color: #357ABD;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: #357ABD;
+    color: white;
+}
+
+/* Secondary Navbar */
+.navbar-second {
+    background-color: #c9302c; /* Firebrick */
+    color: white;
+}
+
+.navbar-second .nav-link {
+    color: #fff !important;
+}
+
+.navbar-second .nav-link:hover {
+    background-color: #a62727; /* Dark Red */
+    border-radius: 4px;
+}
+
+/* Header Image Section */
+.header-section img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+/* Search Section */
+.search-navbar {
+    background-color: #357ABD; /* Steel Blue */
+    padding: 14px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-navbar input[type="search"] {
+    padding: 8px;
+    width: 250px;
+    margin-right: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.search-navbar button {
+    padding: 8px 16px;
+    background-color: grey;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-navbar button:hover {
+    background-color: #001f4d;
+}
+
+/* Cards Section */
+.cards-section, .extra-cards-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 10%;
+}
+
+.card {
+    background-color: #f4f4f4;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card:hover {
+    background-color: #001f4d; /* Dark Blue on hover */
+    color: #ffffff;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #D9534F; /* Indian Red */
+}
+
+.card p {
+    color: #666;
+}
+
+/* Footer Section */
+footer {
+    background-color: #357ABD; /* Steel Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

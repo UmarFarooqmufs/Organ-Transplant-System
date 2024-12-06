@@ -1,0 +1,309 @@
+   /* General Body Styling */
+   body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+  }
+  
+  /* Primary Navbar Styling */
+  nav {
+    background-color: #FF4E50; /* Sunset Orange */
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important; /* White Text */
+  }
+  
+  .nav-link:hover {
+    background-color: #FF7676; /* Light Coral */
+    border-radius: 4px;
+  }
+  
+  /* Button Styling */
+  .btn-outline-success {
+    border-color: #FF9A91; /* Peach */
+    color: #FF9A91;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #FF9A91;
+    color: #fff;
+  }
+  
+  /* Form Styling */
+  .form-control {
+    border-radius: 25px;
+    border-color: #357ABD; /* Steel Blue */
+  }
+  
+  /* Dropdown Menu Styling */
+  .dropdown-menu {
+    border-radius: 8px;
+    border: 1px solid #357ABD;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #357ABD; /* Steel Blue */
+    color: white;
+  }
+  
+  /* Card Custom CSS */
+  .card-title {
+    font-size: 1.5rem;
+    color: #D9534F; /* Indian Red */
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa;
+  }
+  
+  /* Styling for Second Navbar */
+  .navbar-second {
+    background-color: #c9302c; /* Firebrick */
+    color: white;
+  }
+  
+  .navbar-second .nav-link {
+    color: #fff !important;
+  }
+  
+  .navbar-second .nav-link:hover {
+    background-color: #a62727; /* Dark Red */
+    border-radius: 4px;
+  }
+  
+  /* Custom Centering for Navbars */
+  .navbar-center {
+    justify-content: center;
+  }
+  
+  /* Centering Donor Section */
+  .donor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button1 button {
+    padding: 10px 20px;
+    background-color: #357ABD; /* Steel Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button1 button:hover {
+    background-color: #FF4E50; /* Sunset Orange */
+  }
+  
+  /* Carousel Image Styling */
+  .img {
+    height: auto;
+    width: 200px;
+  }
+  
+  .carousel-inner img {
+    height: 700px;
+    width: 1920px;
+  }
+  
+  /* Search Button Styling */
+  .btn-outline-success {
+    border-color:#357ABD; /* Adjusted to Light Coral */
+    color: white;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #357ABD; /* Sunset Orange for Hover */
+    color: white;
+    
+  }
+  
+  /* Sign In Button Styling */
+  .btn-outline-light {
+    border-color: #357ABD; /* Steel Blue for Sign In Button */
+    color: white;
+    margin-right: 10px;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #357ABD; /* Steel Blue for Hover */
+    color: white;
+  }
+  
+  /* Sign Up Button Styling */
+  .btn-outline-primary {
+    border-color:#357ABD; /* Sunset Orange for Sign Up Button */
+    color: white;
+    margin-right: 10px;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #357ABD; /* Sunset Orange for Hover */
+    color: white;
+  }
+  
+  
+  
+  /* Additional CSS for alignment */
+  .ms-auto {
+    margin-left: auto;
+  }
+  
+  .navbar-brand img.logo {
+    height: auto;
+    width: 120px;
+  }
+  
+  /* Footer Section Styling */
+  .footer {
+    background-color: #357ABD; /* Steel Blue */
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column p, .footer-column ul, .footer-column li {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.5;
+  }
+  
+  .footer-column a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-logo img {
+    width: 50px;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #083e5d;
+    border-top: 1px solid #06334a;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    margin: 0 10px;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    background: linear-gradient(135deg, #FF4E50 30%, #357ABD 70%); /* Gradient with Sunset Orange and Steel Blue */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .container .content {
+    margin-bottom: 40px;
+  }
+  
+  .container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .container h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .statistics {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .stat-box {
+    background: white;
+    color: #FF4E50; /* Sunset Orange */
+    margin: 0 15px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stat-box h4 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .stat-box p {
+    font-size: 16px;
+    margin: 10px 0 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
